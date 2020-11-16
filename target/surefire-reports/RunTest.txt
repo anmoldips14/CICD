@@ -1,13 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: RunTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.121 sec <<< FAILURE!
-t_01_test_case_is_failed(RunTest)  Time elapsed: 0.013 sec  <<< FAILURE!
-java.lang.AssertionError: Test assertion is failed expected:<true> but was:<false>
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.147 sec <<< FAILURE!
+t_02_test_case_is_passed(RunTest)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: Test assertion is passed expected:<true> but was:<false>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
-	at RunTest.t_01_test_case_is_failed(RunTest.java:8)
+	at RunTest.t_02_test_case_is_passed(RunTest.java:15)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
