@@ -8,11 +8,7 @@ public class RunTest {
         Assert.assertEquals("Test assertion is failed", true,true);
 
     }
-    @Test
-    public void t_01_test_case_is_passed1() {
-        System.out.println("This test case is supposed to be failed.");
-        Assert.assertEquals("Test assertion is failed", true, true);
-    }
+
 
     @Test
     public void t_02_test_case_is_passed(){
